@@ -1,0 +1,176 @@
+    1  ~cd
+    2  cd~
+    3  cd
+    4  /root
+    5  /home
+    6  ls
+    7  -l
+    8  ls-R
+    9  ls/root
+   10  mkdir ~/CIT173_Lab1
+   11  export FAVORITEE_ANIMAL=FOX MY_AGE=27 BEST_PIZZA_TOPPING=PICKLES MY_CAR_MAKE=JEEP
+   12  env
+   13  env>~/CIT173_Lab1/my-env.txt
+   14  uname-a>~/CIT173_Lab1/my-sys-info.txt
+   15  uname -a
+   16  uname -a>~CIT173_Lab1/my-sys-info.txt
+   17  uname -a>~/CIT173_Lab1/my-sys-info.txt
+   18  cat /etc/group
+   19  ~cat /etc/group| tee ~/CIT173_Lab1/my-group.txt
+   20  list
+   21  cat /etc/group| tee ~/CIT173_Lab1/my-group.txt
+   22  history
+   23  $ head /dev/urandom | tr -dc A-Za-z0 | head -c 13> ~/CIT173_Lab1/file1.dat
+   24  head /dev/urandom | tr -dc A-Za-z0-9 | head -c 13 > ~/CIT173_Lab1/file1.dat
+   25  head ?dev/urandom | tr -dc A-Za-z0-9 | head -c 13 > ~/CIT173_Lab1/fille2.dat
+   26  head /dev/urandom | tr -dc A-Za-z0-9 | head -c 13 > ~/CIT173_Lab1/file2.dat
+   27  cat ~/CIT173_lab1/file1.dat ~/CIT173_Lab1/file2.dat > ~/CIT173_Lab1/my-concat-file.dat
+   28  cat ~/CIT173_Lab1/file1.dat ~/CIT173_Lab1/file2.dat > ~/CIT173_Lab1/my-concat-file.dat
+   29  sed 's/1/monkey/' ~/CIT173_Lab1/my-concat-file.dat > ~/CIT173_Lab1/monkey.dat
+   30  git config --global user.name <ICPickles>
+   31  git config --global user.name <ICPICKLES>
+   32  git config --global user.name <GITHUB_ICPICKLES>
+   33  git config --global user.name "ICPickles"
+   34  cd CIT173_Lab1
+   35  git init
+   36  git remote add origin https://github.com/"ICPickels"/CIT_Lab1.gif
+   37  git add -all
+   38  git push origin master
+   39  git commit -m "Initial commit"
+   40  git config --global user.email "celestehanford@gmail.com"
+   41  git config  --global user.name "ICPickles"
+   42  git commit -m "ICPIckles"
+   43  git add --all
+   44  git commit -m "ICPIckles"
+   45  git push origin master
+   46  git commit -m "ICPIckles"
+   47  git push origin master
+   48  history
+   49  git remote add origin https://github.com/ICPickels/CIT_Lab1.gif
+   50  git remote set-url origin https://github.com/ICPickless/CIT173_Lab1.git
+   51  git push origin master
+   52  git remote set-url origin https://hithub.com/ICPickles/CIT173_Lab1.git
+   53  git push origin master
+   54  git remote set-url origin https://hithub.com/ICPickles/CIT173_Lab1.git
+   55  git push origin master
+   56  ls -al
+   57  cd ..
+   58  ls -al
+   59  ls -alt
+   60  cd CIT173_Lab1/
+   61  git init
+   62  git push origin master
+   63  cd .git/
+   64  ls
+   65  cat config
+   66  nano config 
+   67  clear
+   68  ifconfig
+   69  ping 1.1.1.1
+   70  cd ..
+   71  ls
+   72* [Aclear
+   73  history | less
+   74  reset
+   75  git push origin master
+   76  git push -u origin master
+   77  ls -al
+   78  cd ..
+   79  ls
+   80  ls -al
+   81  ls
+   82  ls -alt
+   83  file CIT173_Lab1/
+   84  history | less
+   85  ls
+   86  ps aux | grep git
+   87  ps aux | grep push
+   88  jobs
+   89  ps aux
+   90  clear
+   91  history
+   92  history |less
+   93  git init
+   94  cd CIT173_Lab1
+   95  git init
+   96  git remote add origin https://github.com/ICPickles/CIT173_Lab1.git
+   97  git add --all
+   98  git push origin master
+   99  pwd
+  100  ls
+  101  rm -rf .git/
+  102  git init
+  103  git commit -m "icpickles"
+  104  git add --all
+  105  git commit -m "icpickles"
+  106  git remote add origin https://github.com/ICPickles/CIT173_Lab1.git
+  107  git push origin master
+  108  pwd
+  109  rm -rf *
+  110  ls
+  111  mkdir CIT173_Lab3
+  112  whoami
+  113  cd ~/
+  114  git clone https://github.com/RenoTechnologyAcademy/CIT173_Lab3_Files.git
+  115  cd~/CIT173_Lab3
+  116  cd ~/CIT173_Lab3
+  117  sudo tar -xvf ~/CIT173_Lab3_Files/phonebook.tar.gz
+  118  cat ~/CIT173_Lab3/phonebook1.txt
+  119  ls -l
+  120  sudo -i cat ~/CIT173_Lab3/phonebook1.txt
+  121  man sed
+  122  sed
+  123  history
+  124  sed -i's/575/775/g'~/CIT173_Lab3/phonebook1.txt
+  125  ls-l
+  126  ls -l
+  127  sudo -i
+  128  ls -l
+  129  cat ~/CIT173_Lab3/phonebook1.txt
+  130  sudo -i
+  131  sudo cat ~/CIT173_Lab3/phonebook1.txt
+  132  sudo sed '575/775/' ~/CIT173_Lab3/phonebook1.txt
+  133  sudo sed -i 's/575/775/g' ~/CIT173_Lab3/phonebook1.txt
+  134  sudo cat ~/CIT173_Lab3/phonebook1.txt
+  135  sudo sed -i 's/575/775/g' ~/CIT173_Lab3/phonebook2.txt
+  136  sudo -i
+  137  pwd
+  138  sudo -i
+  139  sudo apt-get install python3-minimal
+  140  apt-cache pkgnames > my-installed-1.txt
+  141  man|less python
+  142  man python
+  143  #!/usr/bin/env python
+  144  chmod +x hello.py > ~/CIT173_Lab3/my-python-output.txt
+  145  python hello.py >~/CIT173_Lab3/my-python-output.txt
+  146  sudo apt install python
+  147  python hello.py >~/CIT173_Lab3/my-python-output.txt
+  148  ./hello.py
+  149  mv hello.py ~/CIT173_Lab3
+  150  python3
+  151  pwd
+  152  ls -l
+  153  cd ~/CIT173_Lab3_Files
+  154  ./hello.py > ~/CIT173_Lab3/my-python-output.txt
+  155  sudo ./hello.py > ~/CIT173/my-python-output.txt
+  156  sudo ./hello.py > ~/CIT173_Lab3/my-python-output.txt
+  157  sudo python hello.py > ~/CIT173_Lab3/my-python-output.txt
+  158  sudo python inginite.py&
+  159  sudo python infinite.py&
+  160  ps -A
+  161  ps -A|less
+  162  ps -icpickles
+  163  ps -u
+  164  ps -A > ~/CIT173_Lab3/my-processes-1.txt
+  165  kill-l
+  166  kill -l
+  167  man kill
+  168  kill 16849Hg1
+  169  ps -A|less
+  170  kill 16847
+  171  /bin/kill 16847
+  172  sudo /bin/kill 16847
+  173  ps -A|less
+  174  ps -A|less > ~/CIT173_Lab3/my-processes-2.txt
+  175  sudo apt-get remove python3-minimal
+  176  history > ~/CIT173_Lab3/my-command-history.txt
